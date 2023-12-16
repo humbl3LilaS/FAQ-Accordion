@@ -35,7 +35,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Git hub](https://github.com/humbl3LilaS/FAQ-Accordion.git)
-- Live Site URL: [Vercel](https://vercel.com/humbl3lalis/faq-accordion-project)
+- Live Site URL: [Vercel](https://faq-accordion-six-silk.vercel.app/)
 
 ## My process
 
