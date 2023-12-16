@@ -1,0 +1,21 @@
+@use "../utility/variable";
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image : url("../../assets/images/background-pattern-mobile.svg");
+  background-repeat: no-repeat;
+  background-color: variable.$c-grayish-purple;
+  background-size:100%;
+}
+
+
+.box{
+  width: 80%;
+  max-width: 450px;
+  background: variable.$c-white;
+  padding: 5vw;
+  border-radius: 10px;
+}

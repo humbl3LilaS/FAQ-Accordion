@@ -1,0 +1,19 @@
+// Utility
+@use "utility/variable";
+
+// reset & main layout
+@use "layout/reset";
+@use "layout/box";
+
+// component
+@use "component/header";
+@use "component/article";
+
+// layout
+@use "layout/responsive";
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700&display=swap');
+
+body {
+  font-family: 'Work Sans', sans-serif;
+}

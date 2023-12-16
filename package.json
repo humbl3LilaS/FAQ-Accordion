@@ -1,0 +1,14 @@
+{
+  "name": "faq-accordion-main",
+  "version": "1.0.0",
+  "description": "Faq-accordion-main mini project using Sass and JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "compile": "sass --watch scss/main.scss style/main.css"
+  },
+  "author": "Pale Edelweiss",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.69.5"
+  }
+}

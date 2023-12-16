@@ -1,0 +1,12 @@
+@use "../utility/variable";
+
+.header {
+
+  &-primary{
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+    margin-top: 0;
+  }
+
+}

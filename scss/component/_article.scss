@@ -1,0 +1,52 @@
+@use "../utility/variable";
+
+.faq-article {
+  font-size: 16px;
+  padding-bottom: 5px;
+  &:not(:last-of-type){
+    border-bottom: 2px solid black;
+    margin-bottom: 10px;
+  }
+
+  .faq-header-box {
+    display: flex;
+    align-items: center;
+
+
+    .faq-header {
+      width: 80%;
+      font-size: 20px;
+      line-height: 1.4;
+    }
+
+
+
+    .faq-mock-btn {
+      width: 25px;
+      height: 25px;
+      display: block;
+      //background-color: variable.$c-btn;
+      background-image: url("../../assets/images/icon-plus.svg");
+      background-size: 100%;
+      border-radius: 50%;
+      margin-inline: auto 10px;
+      cursor: pointer;
+
+    }
+
+
+  }
+
+  .faq-detail {
+    padding-top: 10px;
+    line-height: 1.4;
+    color: variable.$c-grayish-purple;
+    font-weight: variable.$fw-bold;
+  }
+
+
+  .faq-detail {
+    display: none;
+  }
+
+}

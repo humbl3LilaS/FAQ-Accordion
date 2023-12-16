@@ -1,0 +1,22 @@
+@use "../utility/variable";
+
+@media screen and (min-width: 600px) {
+  body{
+
+    background-size: 100%;
+    background-image: url("../../assets/images/background-pattern-desktop.svg");
+  }
+}
+
+
+
+@media screen and (min-width: 1046px) {
+  body {
+    background-image: url("../../assets/images/background-pattern-desktop.svg");
+    background-size: contain;
+    //background-position-x: 0;
+  }
+  .box{
+    padding: 3vw;
+  }
+}
